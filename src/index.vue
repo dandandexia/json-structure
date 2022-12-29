@@ -32,7 +32,7 @@ const formatJson = {
 };
 
 export default {
-  name: 'schema',
+  name: 'vueJsonStructure',
   props: {
     jsonData: Object,
     disabled: Boolean

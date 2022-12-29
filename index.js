@@ -1,14 +1,14 @@
-import Vue from 'vue';
-import TDesign from 'tdesign-vue';
 import JsonStructure from './src/index.vue'
 
-Vue.use(TDesign);
-
-const install = function (Vue, opts = {}) {
-  Vue.component('JsonStructure', JsonStructure);
+const comment = {
+  install: function (Vue, opts = {}) {
+    Vue.component(JsonStructure.name, JsonStructure);
+  }
 }
 
-export default {
-  install
-};
+if (typeof window !== 'undefined' && window.Vue) {
+  window.Vue.use(comment)
+}
+
+export default comment;
 

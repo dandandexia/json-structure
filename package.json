@@ -1,6 +1,6 @@
 {
   "name": "vue-json-structure",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/dandandexia/json-structure#readme",
   "dependencies": {
-    "tdesign-vue": "^1.0.2",
-    "vue": "2.6"
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0"
   }
 }
