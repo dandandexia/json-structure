@@ -1,0 +1,26 @@
+{
+  "name": "vue-json-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandandexia/json-structure.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "matt.liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dandandexia/json-structure/issues"
+  },
+  "homepage": "https://github.com/dandandexia/json-structure#readme",
+  "dependencies": {
+    "tdesign-vue": "^1.0.2",
+    "vue": "2.6"
+  }
+}
